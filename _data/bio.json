@@ -22,12 +22,12 @@
       },
       {
         "network": "linkedin",
-        "username": "brendan.r.mcdonnell@gmail.com",
+        "username": "brendan.r.mcdonnell",
         "url": "http://linkedin.com/in/brendan-r-mcdonnell/"
       },
       {
         "network": "medium",
-        "username": "brendan.r.mcdonnell@gmail.com",
+        "username": "brendan.r.mcdonnell",
         "url": "https://medium.com/@brendan.r.mcdonnell"
       }
     ]
@@ -57,17 +57,18 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "Expert",
+      "level": "",
       "keywords": [
-        "Python"
+        "Python",
+        "Spark"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Toolset",
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
+        "Spark",
         "Git/GitHub",
         "g++",
         "TI LaunchPad"
