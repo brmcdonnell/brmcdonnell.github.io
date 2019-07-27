@@ -17,21 +17,22 @@
     "profiles": [
       {
         "network": "github",
-        "username": "brmcdonnell",
+        "username": "",
         "url": "http://github.com/brmcdonnell"
       },
       {
         "network": "linkedin",
-        "username": "brendan.r.mcdonnell",
+        "username": "",
         "url": "http://linkedin.com/in/brendan-r-mcdonnell/"
       },
       {
         "network": "medium",
-        "username": "brendan.r.mcdonnell",
+        "username": "",
         "url": "https://medium.com/@brendan.r.mcdonnell"
       }
     ]
-  },
+  }
+  <!--,
   "interests": [
     {
       "name": "statistical modeling",
@@ -147,4 +148,4 @@
       "reference": ""
     }
   ]
-}
+} -->
