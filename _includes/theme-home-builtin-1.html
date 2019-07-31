@@ -1,6 +1,6 @@
 <!-- Home page design with small circular image bisecting card. -->
 
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+<!-- {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %} -->
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
@@ -27,10 +27,10 @@
       </div>
       <div class="center aligned content">
         <div class="description">
-          Interests:
-          {% for interest in site.data.bio.interests %}
+          Toolkit: Data Science, Analytics, and Data Visualization
+          <!--{% for interest in site.data.bio.interests %}
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
+          {% endfor %}-->
 
         </div>
       </div>
@@ -39,13 +39,13 @@
       </div>
       <div class="center aligned content">
         <a href="{{ site.baseurl}}/projects/">
-          <button class="ui basic button">Projects ({{ num_projects }})</button>
+          <button class="ui basic button">Projects</button>
         </a>
-        <a href="{{ site.baseurl}}/essays/">
-          <button class="ui basic button">Essays ({{ num_essays }})</button>
+        <a href="https://medium.com/@brendan.r.mcdonnell" target="_blank">
+          <button class="ui basic button">Blog</button>
         </a>
-        <a href="{{ site.baseurl}}/bio/">
-          <button class="ui basic button">{{ site.bio-page-label }}</button>
+        <a href="https://drive.google.com/file/d/1olWkG5-rFs-83l9xzn6lRS-ah40a9LGY/view" target="_blank">
+          <button class="ui basic button">Resume</button>
         </a>
       </div>
     </div>
